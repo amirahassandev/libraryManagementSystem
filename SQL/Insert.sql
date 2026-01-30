@@ -17,7 +17,10 @@ INSERT INTO Book (Title, PublishYear, Price, CopiesCount, SectionId, AuthorId) V
 ('Machine Learning', '2018-01-01', 600.00, 2, 2, 2),
 ('Refactoring', '2019-01-01', 500.00, 4, 1, 3),
 ('Java Basics', '2017-01-01', 350.00, 5, 1, 4),
-('DDD', '2020-01-01', 550.00, 2, 5, 5);
+('DDD', '2020-01-01', 550.00, 2, 5, 5),
+('Deep Learning', '2016-01-01', 700.00, 3, 2, 2),
+('AI Superpowers', '2018-05-01', 550.00, 2, 2, 2),
+('Neural Networks and Learning Machines', '2010-01-01', 650.00, 4, 2, 2);
 
 INSERT INTO Customer ([Name], Email, [Address]) VALUES
 ('Ahmed Ali', 'ahmed@mail.com', 'Cairo'),
